@@ -1,0 +1,169 @@
+
+
+/* PAGE 1 */
+
+.page1text {
+  font-family: unibody-8-new, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  width: 350px;
+  padding: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 20px;
+  background-color: #ffcfe6;
+  font-size: 12px;
+}
+
+.container {
+  flex-direction: row;
+  align-content: flex-start;
+  display: flex;
+  height: 100px;
+  z-index: 1;
+}
+
+.item {
+  padding: 35px;
+  float: left;
+}
+
+
+
+/* PAGE 2 */
+
+#window {
+  height: 90vh;
+  width: 70vw;
+  background-color: #ff64ad;
+  border-width: 2px;
+  border-color: #000;
+  margin: auto;
+  margin-top: 30px;
+  z-index: auto;
+}
+
+#windowtop {
+font-family: unibody-8-new, sans-serif;
+font-weight: 700;
+font-style: normal;
+color: #ffcfe6;
+z-index: 0;
+margin-top: -720px;
+margin-left: 232px;
+padding-bottom: 12px;
+align-content: center;
+position: fixed;
+background-color: #000;
+height: 5vh;
+width: 68vw;
+font-size: 20px;
+}
+
+#timestamp {
+font-family: unibody-8-new, sans-serif;
+font-weight: 700;
+font-style: normal;
+color: #000;
+font-size: 16px;
+z-index: 1;
+margin-top: -660px;
+margin-left: 232px;
+}
+
+#chatwindow {
+  height: 74vh;
+  width: 67.5vw;
+  background-color: #ffcfe6;
+  margin: auto;
+  border:solid;
+  border-width: 1.5px;
+  border-color: #000;
+
+}
+
+#chat{
+  width: 66.41vw;
+  height: 71vh;
+  margin-left: 250px;
+  margin-top: -585px;
+  z-index: 3;
+  overflow: scroll;
+  position: fixed;
+}
+
+
+#button1 {
+float: left;
+background-color: #000;
+color: #ff64ad;
+padding-left: 25px;
+padding-right: 25px;
+margin: 30px;
+margin-left: 65px;
+justify-content: center;
+transition-duration: 0.2s;
+}
+
+#button1:hover {
+  background-color: #ffcfe6;
+}
+
+.veronica {
+font-family: unibody-8-new, sans-serif;
+font-weight: 400;
+font-style: italic;
+color: #ff64ad;
+}
+
+.sarah {
+font-family: unibody-8-new, sans-serif;
+font-weight: 400;
+font-style: italic;
+color: #000;
+}
+
+
+
+/* PAGE 3 */
+
+
+#cake {
+  z-index: 1;
+  float: right;
+  padding-bottom: 50px;
+  padding-right: 60px;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #ff64ad; 
+}
+::-webkit-scrollbar-track {
+  background: #000; 
+}
+
+
+/* Unibody 8 Pro Regular Italic */
+font-family: unibody-8-new, sans-serif;
+font-weight: 400;
+font-style: italic;
+
+/* Unibody 8 Pro Regular*/
+font-family: unibody-8-new, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+/* Unibody 8 Pro Black*/
+font-family: unibody-8-new, sans-serif;
+font-weight: 900;
+font-style: normal;
+
+/* Unibody 8 Pro Bold*/
+font-family: unibody-8-new, sans-serif;
+font-weight: 700;
+font-style: normal;
