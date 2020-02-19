@@ -7,10 +7,37 @@
 
   <style>
     body {
+      background: url("zebra.png") no-repeat center center fixed;
       background-size: cover;
-      background-repeat: all;
-      background-image: url("zebra.png");
     }
+
+    .page1text {
+  font-family: unibody-8-new, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  width: 350px;
+  padding: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 20px;
+  background-color: #ffcfe6;
+  font-size: 12px;
+}
+
+.container {
+  flex-direction: row;
+  align-content: flex-start;
+  display: flex;
+  height: 100px;
+  z-index: 1;
+}
+
+.item {
+  padding: 35px;
+  justify-content: center;
+  text-align: center;
+}
+
   </style>
 </head>
 
@@ -19,28 +46,28 @@
 <div class="container">
 
   <div class="item">
-    <a href="https://www.youtube.com/watch?v=IFr3GnboNRU" target="_blank"><img src="frame1.png" width="420px"></a>
+    <a href="https://www.instagram.com/p/B31sQhVo0RB/" target="_blank"><img src="frame1.png" height="540px"></a>
     <div class="page1text">
     <p> This is a piece of 3D art by designer Marc Tudisco. I love his work because it is glossy, otherworldly, and absurd. This piece is also an example of experimenting with textures. The artist uses super shiny material for the hand, and a duller metal for the planet. </p>
   </div>
   </div>
 
   <div class="item">
-    <img src="frame2.png" width="450px">
+     <a href="page5.html" target="_blank"><img src="frame2.png" height="540px"></a>
     <div class="page1text">
      <p> This is a poster by Portuguese graphic designer Marisa Passos. The focus of the poster is the distorted typography, and I also really enjoy the cheeky message.</p>
    </div>
   </div>
 
     <div class="item">
-    <a href="https://www.youtube.com/watch?v=IFr3GnboNRU" target="_blank"><img src="frame3.png" width="380px"></a>
+    <a href="https://www.youtube.com/watch?v=IFr3GnboNRU" target="_blank"><img src="frame3.png"  height="540px"></a>
     <div class="page1text">
      <p> This is the artwork for the single ‘Girls Night Out’ by  Charli XCX. The  image is blends a real-life set with glossy, abstract 3D art. The effect is futuristic without being cold. I’m also attracted to the monochromatic palette. </p>
    </div>
   </div>
 
-  <div class="item">
-    <a href="page3.html"> <img src="frame4.png" width="460px"> </a>
+  <div class="item" id="frame4">
+    <a href="page3.html"> <img src="frame4.png"  height="540px"> </a>
     <div class="page1text">
      <p> Ooh, what a delicious cake!</p>
    </div>

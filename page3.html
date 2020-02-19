@@ -7,20 +7,41 @@
 
   <style>
     body {
+      background: url("pinkrug.jpg") no-repeat center center fixed;
       background-size: cover;
-      background-repeat: no-repeat;
-      background-image: url("pinkrug.jpg");
+      overflow: hidden;
     }
+
+    #cake {
+  z-index: auto;
+  padding-bottom: 50px;
+  padding-right: 80px;
+  margin-left: 500px;
+  position: absolute;
+}
+
+
+#pancakes {
+  z-index: -1;
+  float: right;
+  position: fixed;
+  margin-top: -40px;
+  margin-left: 720px;
+}
+
+#fork {
+  margin-top: 330px;
   </style>
+}
+
 
 </head>
 
 <body>
 
-<div id="cake">
-  <img src="cake.gif" width="759px">
-  padding-right
-</div>
+<a href="page4.html" ><img id="cake" src="cake.gif" width="759px"></a>
+<a href="index.html" ><img id="pancakes" src="pancakes.png" width="800px"></a>
+<a href="index.html" ><img id="fork" src="fork.png" width="600px"></a>
 
 </body>
 

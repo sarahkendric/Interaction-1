@@ -4,6 +4,175 @@
   <title>Welcome 2 My Bedroom!</title>
   <link rel="stylesheet" href="https://use.typekit.net/mrc7hdt.css">
   <link rel="stylesheet" type="text/css" href="style.css">
-</head>
 
+  <style>
+    body {
+      background: url("flames.png") no-repeat center center fixed;
+      background-size: cover;
+      overflow: hidden;
+    }
+
+    .image1 {
+      z-index: -2;
+      position: fixed; 
+    }
+
+    .spread1 {
+      -webkit-animation: rotate 20s infinite;
+    }
+
+    @-webkit-keyframes rotate { 
+    0% {
+        transform: rotate(360deg);
+        animation-timing-function: ease-in;
+    }
+    
+    100% {
+        transform: rotate(0deg);
+        animation-timing-function: ease-in;
+    }
+}
+    @-webkit-keyframes movea {
+     0% {
+        transform: translate(20vw, 10vh);
+        animation-timing-function: ease-in;
+    }
+
+    50% {
+      transform: translate(50vw, 10vh);
+      animation-timing-function: ease-in;
+    }
+
+      100% {
+        transform: translate(20vw, 10vh);
+        animation-timing-function: ease-in;
+    }
+}
+
+.image2 {
+      -webkit-animation: moveb 30s infinite;
+      z-index: -3;
+      position: fixed;
+
+    }
+
+    .spread2 {
+      -webkit-animation: rotate 30s infinite;
+    }
+
+   @-webkit-keyframes rotate { 
+    0% {
+        transform: rotate(0deg);
+        animation-timing-function: ease-in;
+    }
+    
+    100% {
+        transform: rotate(360deg);
+        animation-timing-function: ease-in;
+    }
+}
+
+@-webkit-keyframes moveb {
+     0% {
+        transform: translate(20vw, 20vh);
+        animation-timing-function: ease-in;
+    }
+
+    50% {
+      transform: translate(70vw, 50vh);
+      animation-timing-function: ease-in;
+    }
+
+      100% {
+        transform: translate(20vw, 20vh);
+        animation-timing-function: ease-in;
+    }
+}
+
+.image3 {
+      -webkit-animation: movec 30s infinite;
+      z-index: -1;
+      position: fixed; 
+    }
+
+    .spread3 {
+      -webkit-animation: rotate 30s infinite;
+    }
+
+   @-webkit-keyframes rotate { 
+    0% {
+        transform: rotate(0deg);
+        animation-timing-function: ease-in;
+    }
+    
+    100% {
+        transform: rotate(360deg);
+        animation-timing-function: ease-in;
+    }
+}
+
+@-webkit-keyframes movec {
+    0% {
+        transform: translate(100vw, 0vh);
+        animation-timing-function: ease-in;
+    }
+
+    50% {
+      transform: translate(50vw, 30vh);
+      animation-timing-function: ease-in;
+    }
+
+      100% {
+        transform: translate(100vw, 0vh);
+        animation-timing-function: ease-in;
+    }
+  }
+
+  #cred1 {
+  font-family: unibody-8-new, sans-serif;
+  font-weight: 400;
+  color: #ffcfe6;
+  font-size: 100px;
+  z-index: -4;
+  position: fixed;
+  margin-left: 30px;
+  line-height: 1.2em;
+  }
+
+  #cred2 {
+  font-family: unibody-8-new, sans-serif;
+  font-weight: 400;
+  color: #ffcfe6;
+  font-size: 20px;
+  z-index: -4;
+  position: fixed;
+  margin-left: 40px;
+  padding-top: 50px;
+  line-height: 1.2em;
+  }
+
+  </style>
+
+</head>
+<body>
+<div id="spreads">
+
+
+<div class="spread1">
+  <a href="index.html"><img class="image1" src="spread1.jpg" width="550px"></a>
+</div>
+
+
+<div class="spread2">
+  <a href="page2.html"><img class="image2" src="spread2.jpg" width="550px"></a>
+</div>
+
+<div class="spread3">
+  <a href="page5.html"><img class="image3" src="spread3.jpg" width="550px"></a>
+</div>
+</div>
+
+<p id="cred1"> Heaven<br>to Hell </p>
+<p id="cred2"> David LaChapelle, Published 2010 </p>
+</body>
 </html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome 2 My Bedroom!</title>
+  <link rel="stylesheet" href="https://use.typekit.net/mrc7hdt.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <style>
+  
+    body {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: url("pinkvelvet.png");
+      margin: 0;
+      overflow: hidden;
+    }
+
+    .posters {
+    flex-direction: row;
+    align-content: flex-start;
+    display: flex;
+    height: 100px;
+}
+
+    .poster {
+      float: left;
+      padding: 15px;
+      position: relative;
+    }
+
+    #bjork {
+      z-index: -5;
+      position: relative;
+    }
+
+    #pinkposter {
+      position: relative;
+      z-index: -4;
+      padding-right: 5px;
+    }
+
+    #poster1{
+      padding-right: 5px;
+      position: relative;
+      z-index: -4;
+    }
+
+    #bed {
+      margin-left: 220px;
+      bottom: -5px;
+      position: fixed;
+    }
+
+</style>
+</head>
+
+<body>
+
+<div id="bed">
+  <img src="bed.png" width="1250px">
+</div>
+
+<div class="posters">
+
+<div class="poster" id="poster1">
+  <a href="page2.html"> <img src="quotes.png" width="390px"></a>
+</div>
+
+<div class="poster" id="bjork">
+  <a href="index.html"> <img src="bjorkposter.jpg" width="250px"></a>
+</div>
+
+<div class="poster" id="pinkposter">
+  <a href="page4.html"> <img src="pinkposter.png" width="320px"></a>
+</div>
+
+
+</div>
+
+
+</body>
+
+</html>
